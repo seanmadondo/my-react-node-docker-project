@@ -1,0 +1,33 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+  
+/* Style the tab buttons */
+.tab {
+    background-color: white;
+    color: black;
+    font-weight:bolder;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: inherit;
+    border: 1px solid lightgray;
+}
+
+/* Change background color of buttons on hover */
+    .tab:hover {
+    background-color: ghostwhite;
+}
+
+ /* Create an active/current tablink class */
+.tabs button.active {
+    border-bottom: 4px solid orange;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
